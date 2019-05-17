@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Signals Demo
   sections:
   - heading: 
-    text: This is a tutorial project for the Markers & Signals blog post
+    text: This is a tutorial project for the Signals blog post
     linkText: Read the blog post
     url: https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial
   loadedLayout: 1

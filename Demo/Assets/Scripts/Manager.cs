@@ -7,8 +7,6 @@ using Random = UnityEngine.Random;
 public class Manager : MonoBehaviour
 {
     public PlayableDirector gameDirector;
-    public PlayableDirector deathDirector;
-    public PlayableDirector successTimeline;
     public Text keyUI;
 
     static Tuple<KeyCode, string>[] keys =
@@ -37,7 +35,6 @@ public class Manager : MonoBehaviour
         {
             ShowKeyObject(false);
             gameDirector.Stop();
-            deathDirector.Play();
         }
     }
 
@@ -56,16 +53,8 @@ public class Manager : MonoBehaviour
             {
                 ShowKeyObject(false);
                 isDisplayingKey = false;
-                PlayTimeline(successTimeline);
             }
         }
-    }
-
-    static void PlayTimeline(PlayableDirector director)
-    {
-        director.Stop();
-        director.time = 0;
-        director.Play();
     }
 
     void ShowKeyObject(bool show)
