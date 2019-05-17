@@ -1,6 +1,6 @@
 # Timeline Signals Game
 
-USed as an example for the Timeline Signals blog post: 
+Example for the Timeline Signals blog post: 
 Built with Unity 2019.1.0f2
 
 Open the project in the Demo directory to follow the tutorial in the blog post.
