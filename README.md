@@ -1,4 +1,6 @@
-# Timeline Signals Game
+# Timeline Signals Game Demo
+
+![Alt text](Docs/Signals.png?raw=true "Title")
 
 Example for the Timeline Signals blog post:  
 
