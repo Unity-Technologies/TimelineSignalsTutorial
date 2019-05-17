@@ -3,6 +3,8 @@
 **/[Oo]bj/
 **/[Bb]uild/
 **/[Bb]uilds/
+**/[Pp]lugins/
+**/.idea/
 **/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -27,6 +29,7 @@
 # Unity3D generated meta files
 **/*.pidb.meta
 **/*.pdb.meta
+**/Plugins.meta
 
 # Unity3D Generated File On Crash Reports
 **/sysinfo.txt
