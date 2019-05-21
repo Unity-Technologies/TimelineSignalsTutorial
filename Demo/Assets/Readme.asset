@@ -18,5 +18,5 @@ MonoBehaviour:
   - heading: 
     text: This is a tutorial project for the Signals blog post
     linkText: Read the blog post
-    url: https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial
+    url: https://blogs.unity3d.com/?p=81029/
   loadedLayout: 1
